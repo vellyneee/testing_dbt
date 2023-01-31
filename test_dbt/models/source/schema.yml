@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: test_dbt
+    database: test_dbt
+    schema: public
+    tables:
+      - name: customers
+      - name: orders
+      - name: products
+      - name: sales
